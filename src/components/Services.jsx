@@ -5,13 +5,16 @@ import logo3 from '../assets/logos/logo3.png'
 import logo4 from '../assets/logos/logo4.png'
 import logo5 from '../assets/logos/logo5.png'
 import logo6 from '../assets/logos/logo6.png'
+import icon1 from '../assets/icons/icon1.png'
+import icon2 from '../assets/icons/icon2.png'
+import icon3 from '../assets/icons/icon3.png'
 
 const Services = () => {
 
   const services = [
-  {id:1, title: "Membership Organisation", description: "Our membership management software provides full automation of membership renewals and payments", image: "/src/assets/icons/icon1.png"},
-  {id:1, title: "National Associations", description: "Our membership management software provides full automation of membership renewals and payments", image: "/src/assets/icons/icon2.png"},
-  {id:1, title: "Clubs And Groups", description: "Our membership management software provides full automation of membership renewals and payments", image: "/src/assets/icons/icon3.png"}
+  {id:1, title: "Membership Organisation", description: "Our membership management software provides full automation of membership renewals and payments", image: icon1},
+  {id:1, title: "National Associations", description: "Our membership management software provides full automation of membership renewals and payments", image: icon2},
+  {id:1, title: "Clubs And Groups", description: "Our membership management software provides full automation of membership renewals and payments", image: icon3}
   ]
 
   return (
